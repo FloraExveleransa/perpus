@@ -29,7 +29,7 @@
             <div class="col-md-12 grid-margin">
               <div class="row">
                 <div class="col-12 col-xl-8 mb-4 mb-xl-0">
-                  <h3 class="font-weight-bold">Welcome! <?= session()->get('id_level')?></h3>
+                  <h3 class="font-weight-bold">Perpustakaan Digital <?= session()->get('id_level')?></h3>
                   <h6 class="font-weight-normal mb-0"> <span class="text-primary"></span></h6>
                 </div>
                 <div class="col-12 col-xl-4">
@@ -56,7 +56,7 @@
   <div class="col-md-6 mb-4">
     <div class="card tale-bg">
       <div class="card-people mt-auto">
-        <img src="<?php echo base_url('images/pt1.jpg') ?>" alt="logo" style="width: 100%; height: auto;">
+        <img src="<?php echo base_url('images/513.jpg') ?>" alt="logo" style="width: 300%; height: auto;">
         <div class="weather-info">
           <div class="d-flex">
             <!-- Konten tambahan bisa ditambahkan di sini jika diperlukan -->
@@ -66,51 +66,7 @@
     </div>
   </div>
 
-  <!-- Bagian tentang perusahaan -->
-  <div class="col-md-6 mb-4 stretch-card transparent">
-    <div class="card">
-      <div class="card-body">
-        <p class="card-title">Tentang Perusahaan</p>
-        <p class="font-weight-500">PT Mitra Dagang Utama adalah perusahaan yang bergerak di bidang distribusi dan penjualan bahan-bahan pokok atau sembako. Berdiri sejak tahun 2012, perusahaan ini telah menjadi salah satu pemain utama dalam industri distribusi sembako di Indonesia.</p>
-        <div class="d-flex flex-wrap mb-5">
-          <div class="mr-5 mt-3">
-            <p class="text-muted">Customer</p>
-            <h3 class="text-primary fs-30 font-weight-medium">12.3k</h3>
-          </div>
-          <div class="mr-5 mt-3">
-            <p class="text-muted">Orderan</p>
-            <h3 class="text-primary fs-30 font-weight-medium">14k</h3>
-          </div>
-          <div class="mr-5 mt-3">
-            <p class="text-muted">Rating</p>
-            <h3 class="text-primary fs-30 font-weight-medium">71.56%</h3>
-          </div>
-        </div>
-        <canvas id="order-chart"></canvas>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- Pemasukan dan Pengeluaran Stok Barang di bawah foto/logo -->
-<div class="row">
-  <div class="col-md-12 grid-margin stretch-card">
-    <div class="card">
-      <div class="card-body">
-        <div class="d-flex justify-content-between">
-          <p class="card-title">Pemasukan dan Pengeluaran Stok Barang</p>
-          <a href="#" class="text-info">View all</a>
-        </div>
-        <p class="font-weight-500">Sejauh ini persentase peningkatan barang berpihak pada barang masuk karena peningkatan barang masuk berkembang pesat pada tahun ini.</p>
-        <div id="sales-legend" class="chartjs-legend mt-4 mb-2"></div>
-        <canvas id="sales-chart"></canvas>
-      </div>
-    </div>
-  </div>
-</div>
-
-            
+              
                  
   <!-- container-scroller -->
 

@@ -28,6 +28,7 @@ $routes->post('home/aksi_update_users', 'Home::aksi_update_users');
 $route['pengiriman'] = 'home/pengiriman';
 $route['update_status_pembayaran'] = 'home/update_status_pembayaran';
 $route['history-pesanan'] = 'Home/historyPesanan';
+$route['arsip-surat'] = 'home/arsipSurat';
 
 $route['home/print_bk'] = 'home/print_bk';
 $routes->get('/signup', 'Home::signup');
@@ -41,6 +42,7 @@ $routes->get('/home/lppw', 'Home::lppw');
 $routes->post('/home/forgot_password_action', 'Home::forgot_password_action');
 $routes->get('home/akses_view', 'Home::akses_view');
 // $routes->post('home/update_access', 'Home::update_access');
+$routes->post('home/aksi_registrasi', 'HomeController::aksi_registrasi');
 
 /*
  * --------------------------------------------------------------------

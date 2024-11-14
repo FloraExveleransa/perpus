@@ -88,16 +88,19 @@
                <form action="<?= base_url('home/login') ?>" method="post">
 
                     <div class="form-group">
-                        <input type="text" class="form-control form-control-lg" name="nama_users" placeholder="Nama" required>
+                        <input type="text" class="form-control form-control-lg" name="username" placeholder="username" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control form-control-lg" name="email" placeholder="Email" required>
+                        <input type="password" class="form-control form-control-lg" name="password" placeholder="password" required>
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control form-control-lg" name="password" placeholder="Password" required>
+                        <input type="text" class="form-control form-control-lg" name="email" placeholder="email" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control form-control-lg" name="no_telp" placeholder="No. Telp" required>
+                        <input type="text" class="form-control form-control-lg" name="namalengkap" placeholder="namalengkap" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control form-control-lg" name="alamat" placeholder="alamat" required>
                     </div>
                    <!--  <div class="form-group">
                         <select class="form-control form-control-lg" name="id_level" required>
@@ -108,8 +111,13 @@
                         </select>
                     </div> -->
                    <div class="mt-3">
-  <div class="mt-3">
-    <button class="btn btn-primary btn-block btn-lg shadow-lg mt-5" type="submit">Daftar</button>
+  <form action="<?= base_url('home/aksi_registrasi') ?>" method="POST">
+    <!-- Semua field form -->
+    <button type="submit" class="btn btn-primary">Daftar</button>
+    <button type="reset" class="btn btn-secondary">Reset</button>
+</form>
+
+
 </div>
 
 
